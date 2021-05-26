@@ -1,0 +1,63 @@
+@font-face {
+  font-family: pertibd;
+  src: url(Fonts/pertibd.ttf);
+}
+@font-face {
+  font-family: Philosopher-Regular;
+  src: url(Fonts/Philosopher/Philosopher-Regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.banner-area {
+  width: 100%;
+  height: 100vh;
+  background: url(Images/Kerala.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.title-area {
+  position: absolute;
+  top: 235px;
+  left: 134px;
+}
+
+.H1-Main {
+  font-size: 85px;
+  letter-spacing: 2px;
+  color: #fcfcfc;
+}
+
+.subtitle {
+  font-family: Philosopher-Regular;
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.logo-area {
+  position: absolute;
+  left: 35px;
+  top: 25px;
+
+  font-family: Philosopher-Regular;
+  letter-spacing: 20;
+  color: #f8f7f7;
+}
+
+#L1 {
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#L2 {
+  position: relative;
+  top: 4px;
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 1.8px;
+}
