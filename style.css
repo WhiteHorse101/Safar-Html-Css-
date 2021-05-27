@@ -61,3 +61,61 @@
   font-weight: 100;
   letter-spacing: 1.8px;
 }
+.Nav-Bar {
+  font-family: Philosopher-Regular;
+  font-size: 30px;
+}
+
+ul {
+  width: auto;
+  position: absolute;
+  left: 990px;
+  top: 8px;
+}
+
+li {
+  display: inline-block;
+  padding: 15px 30px;
+}
+
+a {
+  text-align: center;
+  color: #f8f7f7;
+  font-family: Philosopher-Regular;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.button-explore {
+  position: absolute;
+  top: 450px;
+  left: 134px;
+}
+
+#btn {
+  font-family: Philosopher-Regular;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  height: 45px;
+  width: 250px;
+}
+
+#k2 {
+  font-family: pertibd;
+  font-weight: 700;
+  font-size: 35px;
+  color: #f8f7f7;
+  position: absolute;
+  left: 138px;
+  top: 680px;
+  opacity: 0.5;
+}
