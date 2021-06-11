@@ -137,13 +137,17 @@ a {
 }
 
 .Ladakh {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: rgba(255, 255, 255, 0.3);
+  /* background: rgba(255, 255, 255, 0.3); */
   border-radius: 12px;
   height: 380px;
   width: 245px;
+}
+
+#Card-Ladakh {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 12px;
 }
 
 #Andaman {
@@ -168,6 +172,13 @@ a {
   top: 20px;
 }
 
+#Card-Andaman {
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
 #Jaipur {
   color: #f8f7f7;
   font-size: 20px;
@@ -178,14 +189,17 @@ a {
 }
 
 .Jaipur {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: rgba(255, 255, 255, 0.3);
   border-radius: 12px;
   height: 320px;
   width: 195px;
   position: absolute;
   left: 545px;
   top: 30px;
+}
+
+#Card-Jaipur {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 12px;
 }
