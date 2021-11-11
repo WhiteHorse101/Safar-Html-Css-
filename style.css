@@ -203,3 +203,9 @@ a {
   object-fit: cover;
   border-radius: 12px;
 }
+
+.next-button {
+  position: absolute;
+  top: 355px;
+  left: 715px;
+}

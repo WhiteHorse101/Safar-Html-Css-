@@ -1,0 +1,211 @@
+@font-face {
+  font-family: pertibd;
+  src: url(Fonts/pertibd.ttf);
+}
+@font-face {
+  font-family: Philosopher-Regular;
+  src: url(Fonts/Philosopher/Philosopher-Regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.banner-area {
+  width: 100%;
+  height: 100vh;
+  background: url(Images/ravi-shekhar-P0a6TT0CvKg-unsplash.png);
+  background-size: auto;
+  position: relative;
+}
+
+.title-area {
+  position: absolute;
+  top: 235px;
+  left: 134px;
+}
+
+.H1-Main {
+  font-size: 85px;
+  letter-spacing: 2px;
+  color: #fcfcfc;
+}
+
+.subtitle {
+  font-family: Philosopher-Regular;
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.logo-area {
+  position: absolute;
+  left: 35px;
+  top: 25px;
+
+  font-family: Philosopher-Regular;
+  letter-spacing: 20;
+  color: #f8f7f7;
+}
+
+#L1 {
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#L2 {
+  position: relative;
+  top: 4px;
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 1.8px;
+}
+.Nav-Bar {
+  font-family: Philosopher-Regular;
+  font-size: 30px;
+}
+
+ul {
+  width: auto;
+  position: absolute;
+  left: 990px;
+  top: 8px;
+}
+
+li {
+  display: inline-block;
+  padding: 15px 48px;
+}
+
+a {
+  text-align: center;
+  color: #f8f7f7;
+  font-family: Philosopher-Regular;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.button-explore {
+  position: absolute;
+  top: 450px;
+  left: 134px;
+}
+
+#btn {
+  font-family: Philosopher-Regular;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  height: 45px;
+  width: 220px;
+}
+
+#k2 {
+  font-family: pertibd;
+  font-weight: 700;
+  font-size: 35px;
+  color: #f8f7f7;
+  position: absolute;
+  left: 138px;
+  top: 680px;
+  opacity: 0.5;
+}
+
+.images {
+  position: absolute;
+  top: 200px;
+  left: 765px;
+  height: 540px;
+  width: 700px;
+}
+
+#ladakh {
+  color: #f8f7f7;
+  position: absolute;
+  bottom: 545px;
+  font-size: 28px;
+  font-family: Philosopher-Regular;
+}
+
+.Ladakh {
+  /* background: rgba(255, 255, 255, 0.3); */
+  border-radius: 12px;
+  height: 380px;
+  width: 245px;
+}
+
+#Card-Ladakh {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+#Andaman {
+  color: #f8f7f7;
+  font-size: 22px;
+  font-family: Philosopher-Regular;
+  position: absolute;
+  left: 300px;
+  top: -8px;
+}
+
+.Andaman {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  height: 340px;
+  width: 215px;
+  position: absolute;
+  left: 300px;
+  top: 20px;
+}
+
+#Card-Andaman {
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+#Jaipur {
+  color: #f8f7f7;
+  font-size: 20px;
+  font-family: Philosopher-Regular;
+  position: absolute;
+  left: 545px;
+  top: 2px;
+}
+
+.Jaipur {
+  border-radius: 12px;
+  height: 320px;
+  width: 195px;
+  position: absolute;
+  left: 545px;
+  top: 30px;
+}
+
+#Card-Jaipur {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.next-button {
+  position: absolute;
+  top: 355px;
+  left: 715px;
+}
